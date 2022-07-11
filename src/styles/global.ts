@@ -35,12 +35,12 @@ export const GlobalStyle = createGlobalStyle`
 
   }
 
-  border-style, input, textarea, button{
+  border-style, input, textarea,p , button{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
   }
 
-  h1, h2, h3, h4, h5,h6, strong{
+  h1, h2, h3, h4, h5, h6, strong{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
   }

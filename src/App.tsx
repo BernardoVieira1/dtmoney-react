@@ -1,11 +1,14 @@
+import { Deshboard } from "./components/Deshboard";
+import { Header } from "./components/header";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
-    <div className="App">
+    <>
+      <Header />
+      <Deshboard />
       <GlobalStyle />
-      <h1>Hello word</h1>
-    </div>
+    </>
   );
 }
 
